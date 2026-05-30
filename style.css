@@ -680,3 +680,7 @@ ul { list-style: none; }
   .fixed-cta { display: none; }
   body { padding-bottom: 0; }
 }
+@media (max-width: 768px) {
+  .hero-slide:nth-child(1) { background-image: url('images/hero-01-sp.jpg') !important; }
+  .hero-slide:nth-child(3) { background-image: url('images/hero-03-sp.jpg') !important; }
+}
